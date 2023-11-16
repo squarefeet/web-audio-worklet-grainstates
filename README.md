@@ -32,8 +32,4 @@ A window is basically the same thing as slicing a chunk out of our audio buffer,
 
 Great. We have grains. Now what? Well, it'd be pretty fatiguing on the ears if we just played a single grain (a very short slice of audio) over and over again. Remember what a CD sounds like when it skips? Well it's like that, but infinitely more headache-inducing. So instead, we _spread_ out the grains across say, one second, and then play them back. The variation causes a smearing effect which is much more pleasing to the ears. This is what the `spread` control does. We can also play back multiple grains at once to add to this smearing effect, with each one spread out even further. The `density` control allows you to control how many grains are playing back at once (1 - 10).
 
-There's a bit more to it than that, but that's the basics.
-
-
-
-
+There's a bit more to it than that, but they're the basics.
