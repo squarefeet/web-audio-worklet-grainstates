@@ -16,5 +16,5 @@ Once running, you'll see a bunch of labels and inputs. These control the granula
 * `Spread` will increase each grain's length by a random amount each time the grain is reset.
 * `Density` controls how many grains play at once, from 1 to 10. Each step in the density scale will also spread out the grains further.
 * `Reverse` determines what direction the grains should play back
-* `Mix` is the gain conrol ( 0 - 1 )
+* `Mix` is the gain control ( 0 - 1 )
 * `Pitch` linearly controls the pitch of the grains in 0.25% steps. It's not the most musical way of changing pitch but as a proof of concept it's fine.
