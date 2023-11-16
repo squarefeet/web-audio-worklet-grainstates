@@ -22,7 +22,7 @@ Once running, you'll see a bunch of labels and inputs. These control the granula
 
 ## What?!
 
-An audio file is basically a big list of numbers (well, technically one list per channel, so two for stereo). Each one of those numbers is a _sample_. If you were to draw this numbers on a graph and zoom way out, you'd see a waveform.
+An audio file is basically a big list of numbers (well, technically one list per channel, so two for stereo). Each one of those numbers is a _sample_. If you were to draw these numbers on a graph and zoom way out, you'd see a waveform.
 
 Okay, so we know we have a big list of numbers and those numbers represent sound. We'll refer to these as _buffers_ from now on. A single _grain_, then, is a little window into these buffers. Like slicing an array would give you a selection of its data, so the same goes for a grain.
 
