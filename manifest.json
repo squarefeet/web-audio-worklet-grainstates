@@ -1,0 +1,10 @@
+{
+    "name": "AudioIOWorklet",
+    "short_name": "AudioIOWorklet",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Testing audio worklets",
+    "type": "module"
+  }
+  

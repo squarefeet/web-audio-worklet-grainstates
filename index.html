@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<link rel="manifest" href="manifest.json" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite + TS</title>
+	</head>
+	<body>
+		<div id="app">
+			<button id="start">Start</button>
+
+			<div class="controls">
+				<div
+					class="control"
+					id="attack">
+					<label for="attack-input">Attack</label>
+					<input id="attack-input" type="range" class="slider" />
+				</div>
+
+				<div
+					class="control"
+					id="hold">
+					<label for="hold-input">Hold</label>
+					<input id="hold-input" type="range" class="slider" />
+				</div>
+
+				<div
+					class="control"
+					id="release">
+					<label for="release-input">Release</label>
+					<input id="release-input" type="range" class="slider" />
+				</div>
+
+				<div
+					class="control"
+					id="spread">
+					<label for="spread-input">Spread</label>
+					<input id="spread-input" type="range" class="slider" />
+				</div>
+
+				<div
+					class="control"
+					id="density">
+					<label for="density-input">Density</label>
+					<input id="density-input" type="range" class="slider" />
+				</div>
+
+				<!--
+					TODO: Not implemented yet.
+					<div
+						class="control"
+						id="densityJitter">
+						<label for="densityJitter-input">Density Jitter</label>
+						<input id="densityJitter-input" step="0.01" type="range" class="slider" />
+					</div>
+				-->
+
+				<div
+					class="control"
+					id="reverse">
+					<label for="reverse-input">Reverse</label>
+					<input id="reverse-input" type="checkbox" class="checkbox" />
+				</div>
+
+				<!--
+					TODO: Not implemented yet
+					<div
+						class="control"
+						id="freeze">
+						<label for="freeze-input">Freeze</label>
+						<input id="freeze-input" type="checkbox" class="checkbox" />
+					</div>
+				-->
+
+				<div
+					class="control"
+					id="mix">
+					<label for="mix-input">Mix</label>
+					<input id="mix-input" step="0.1" type="range" class="slider" />
+				</div>
+
+				<div
+					class="control"
+					id="travel">
+					<label for="travel-input">Pitch (linear)</label>
+					<input id="travel-input" step="0.25" type="range" class="slider" />
+				</div>
+
+				<div
+					class="control"
+					id="playbackPosition">
+					<label for="playbackPosition-input">Playback Position</label>
+					<input disabled id="playbackPosition-input" step="0.01" type="range" class="slider" />
+				</div>
+			</div>
+		</div>
+
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>
